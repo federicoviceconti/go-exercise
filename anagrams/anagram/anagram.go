@@ -1,17 +1,5 @@
 package anagram
 
-/*func main() {
-	var anagramWord = "abbcb"
-	var completeWord = "ddddd"
-	var anagramFound = FoundAnagramsInWord(anagramWord, completeWord)
-
-	if isStringNotEmpty(anagramFound) {
-		fmt.Println(anagramFound)
-	} else {
-		fmt.Println("Not found Anagram")
-	}
-}*/
-
 func FoundAnagramsInWord(anagramToFound string, completeWord string) ([]string) {
 	lenCompleteWord := len(completeWord)
 	lenAnagramToFound := len(anagramToFound)
